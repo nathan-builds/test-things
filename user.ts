@@ -6,3 +6,7 @@ export const log = (message: string) => {
 export const greet = (name: string) => {
     console.log(`Hello ${name}`);
 }
+
+export const test = () => {
+    console.log('test');
+}
