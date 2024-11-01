@@ -3,3 +3,4 @@ export const test = () => {
 };
 
 const myTest =3;
+const myTest2 = 4;
