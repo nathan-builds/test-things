@@ -2,6 +2,7 @@ export type Server = {
     port: number;
     host: string;
     start: () => void;
+    test?: () => void;
 }
 
 export const createServer = (port: number, host: string): Server => {
@@ -11,5 +12,6 @@ export const createServer = (port: number, host: string): Server => {
         start: () => {
             console.log('Server started');
         }
+
     }
 }
