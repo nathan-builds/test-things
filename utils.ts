@@ -4,3 +4,4 @@ export const test = () => {
 
 export type hello = {}
 const myTest = 3;
+const abc = 'abc'
